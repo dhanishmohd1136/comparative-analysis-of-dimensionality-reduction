@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Processed data
+data/processed/*
+
+# Raw datasets (keep only .gitkeep)
+data/raw/*
+!data/raw/.gitkeep
+
+# Outputs
+outputs/figures/*
+outputs/reports/*
+!outputs/figures/.gitkeep
+!outputs/reports/.gitkeep
+
+# Models
+models/
+*.pkl
+*.joblib
+*.onnx
+
+# Archives
+*.zip
+*.tar
+*.gz
+*.7z
+*.rar
+
+# Large data formats
+*.parquet
+*.feather
